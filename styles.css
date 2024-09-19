@@ -16,7 +16,7 @@ body {
 .game-board {
   display: grid;
   grid-template-columns: repeat(4, 100px);
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .icon-image-hidden {
@@ -33,8 +33,8 @@ body {
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   background-color: #541f1f;
   display: flex;
   justify-content: center;
