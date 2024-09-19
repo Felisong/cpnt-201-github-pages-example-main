@@ -27,32 +27,31 @@ body {
   display: block;
 }
 
-
 .card.flipped {
-  background-color: #fff;
+  background-color: #ffcece;
   color: #333;
 }
 
 .card {
-  width: 100px;
-  height: 100px;
-  background-color: #333;
+  width: 200px;
+  height: 200px;
+  background-color: #541f1f;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 50px;
   color: transparent; /* Hide icon text initially */
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .card.hidden {
-  background-color: #333;
+  background-color: #541f1f;
   color: transparent; /* Keep icon hidden */
 }
 
 .card.flipped,
 .card.matched {
   background-color: #fff;
-  color: #333; /* Show icon when flipped or matched */
+  color: #ff7474; /* Show icon when flipped or matched */
 }
