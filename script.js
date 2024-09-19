@@ -2,7 +2,7 @@ const gameBoard = document.getElementById("gameBoard");
 const scoreBoard = document.getElementById("scoreBoard");
 const icons = [
   "🐈",
-  "🐐",
+  "🍌",
   "🍇",
   "🍉",
   "🍓",
@@ -10,7 +10,7 @@ const icons = [
   "🍍",
   "🍋",
   "🐈",
-  "🐐",
+  "🍌",
   "🍇",
   "🍉",
   "🍓",
